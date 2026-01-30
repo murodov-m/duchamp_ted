@@ -270,6 +270,29 @@
             animation: scroll-loop 20s linear infinite;
         }
 
+        /* Black Gold Shimmer - Elegant dark with gold highlights */
+.shimmer-black-gold {
+    background: linear-gradient(
+        90deg,
+        rgba(60, 50, 40, 0.9) 0%,
+        rgba(180, 155, 100, 1) 25%,
+        rgba(220, 195, 130, 1) 50%,
+        rgba(180, 155, 100, 1) 75%,
+        rgba(60, 50, 40, 0.9) 100%
+    );
+    background-size: 300% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shimmer-black-gold 4s ease-in-out infinite;
+}
+
+@keyframes shimmer-black-gold {
+    0% { background-position: 100% 0; }
+    50% { background-position: 0% 0; }
+    100% { background-position: 100% 0; }
+}
+
         @keyframes scroll-loop {
             0% {
                 transform: translateX(0);
@@ -458,9 +481,9 @@
                 </p>
                 
                 <!-- Name -->
-                <h1 class="font-display text-lg font-medium shimmer-text tracking-wide">
-                    Ted Achilov
-                </h1>
+<h1 class="font-display text-lg font-medium shimmer-black-gold tracking-wide">
+    Ted Achilov
+</h1>
             </div>
         </div>
         
