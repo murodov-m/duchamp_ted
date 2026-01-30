@@ -495,7 +495,7 @@
                     <img 
                         src="./assets/ted_pic.png?w=400&h=420&fit=crop&crop=face"
                         alt="Ted Achilov"
-                        class="w-28 h-28 rounded-full object-cover"
+                        class="w-36 h-36 rounded-full object-cover"
                     >
                 </div>
             </div>
@@ -569,155 +569,79 @@
     </section>
 
     <!-- ═══════════════════════════════════════════════════════════════════
-         SECTION 3: BLURRED PROJECTS TEASER WITH LOOPING CAROUSEL
-         ═══════════════════════════════════════════════════════════════════ -->
-    <section class="projects-teaser bg-[#f5f5f7] py-16 safe-area-bottom">
+     SECTION 3: PDF RESOURCES
+     ═══════════════════════════════════════════════════════════════════ -->
+<section class="bg-[#f5f5f7] px-6 py-16 safe-area-bottom">
+    
+    <!-- Section Title -->
+    <div class="text-center mb-8">
+        <h3 class="text-lg font-semibold text-gray-800">Resources</h3>
+        <p class="text-gray-500 text-sm mt-1">Explore our exclusive materials</p>
+    </div>
+
+    <!-- PDF Buttons Container -->
+    <div class="max-w-md mx-auto space-y-4">
         
-        <!-- Section Title -->
-        <div class="text-center mb-6 px-6">
-            <h3 class="text-lg font-semibold text-gray-800">Our Portfolio</h3>
-            <p class="text-gray-500 text-sm mt-1">Exclusive properties curated for you</p>
-        </div>
-
-        <!-- Carousel with Blur Overlay -->
-        <div class="projects-carousel-wrapper relative py-4">
-            
-            <!-- Edge Fades -->
-            <div class="carousel-fade-left"></div>
-            <div class="carousel-fade-right"></div>
-            
-            <!-- Blur Overlay -->
-            <div class="blur-overlay"></div>
-            
-            <!-- Explore Projects CTA Button -->
-            <div class="explore-cta">
-                <a 
-                    href="./projects.html"
-                    class="btn-press pulse-cta inline-flex items-center gap-3 px-8 py-4 bg-gray-900 text-white font-semibold rounded-full shadow-xl no-underline"
-                >
-                    <span>Explore Projects</span>
-                    <i class="fas fa-arrow-right"></i>
-                </a>
+        <!-- Why Dubai PDF -->
+        <a 
+            href="./assets/why-dubai.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn-press group flex items-center gap-4 p-5 bg-white rounded-3xl shadow-sm border border-gray-100 hover:shadow-md transition-all duration-300 no-underline"
+        >
+            <!-- Icon Container -->
+            <div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-amber-400 to-orange-500 flex items-center justify-center flex-shrink-0 shadow-lg shadow-orange-500/20">
+                <i class="fas fa-city text-white text-xl"></i>
             </div>
-
-            <!-- Infinite Looping Carousel -->
-            <div class="carousel-track">
-                
-                <!-- === FIRST SET OF CARDS === -->
-                <div class="carousel-item">
-                    <div class="project-card w-64 h-80 shadow-lg">
-                        <img src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=600&q=80" alt="Project" loading="lazy">
-                        <div class="project-card-content">
-                            <span class="text-white/70 text-xs font-medium uppercase tracking-wider">Beverly Hills</span>
-                            <h4 class="text-white text-lg font-semibold mt-1">The Skyline Residence</h4>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="carousel-item">
-                    <div class="project-card w-64 h-80 shadow-lg">
-                        <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=600&q=80" alt="Project" loading="lazy">
-                        <div class="project-card-content">
-                            <span class="text-white/70 text-xs font-medium uppercase tracking-wider">Malibu Coast</span>
-                            <h4 class="text-white text-lg font-semibold mt-1">Ocean View Estates</h4>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="carousel-item">
-                    <div class="project-card w-64 h-80 shadow-lg">
-                        <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600&q=80" alt="Project" loading="lazy">
-                        <div class="project-card-content">
-                            <span class="text-white/70 text-xs font-medium uppercase tracking-wider">Santa Monica</span>
-                            <h4 class="text-white text-lg font-semibold mt-1">Sunset Plaza</h4>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="carousel-item">
-                    <div class="project-card w-64 h-80 shadow-lg">
-                        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&q=80" alt="Project" loading="lazy">
-                        <div class="project-card-content">
-                            <span class="text-white/70 text-xs font-medium uppercase tracking-wider">Bel Air</span>
-                            <h4 class="text-white text-lg font-semibold mt-1">The Grand Manor</h4>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="carousel-item">
-                    <div class="project-card w-64 h-80 shadow-lg">
-                        <img src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914?w=600&q=80" alt="Project" loading="lazy">
-                        <div class="project-card-content">
-                            <span class="text-white/70 text-xs font-medium uppercase tracking-wider">Hollywood Hills</span>
-                            <h4 class="text-white text-lg font-semibold mt-1">Vista Heights</h4>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- === DUPLICATE SET FOR SEAMLESS LOOP === -->
-                <div class="carousel-item">
-                    <div class="project-card w-64 h-80 shadow-lg">
-                        <img src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=600&q=80" alt="Project" loading="lazy">
-                        <div class="project-card-content">
-                            <span class="text-white/70 text-xs font-medium uppercase tracking-wider">Beverly Hills</span>
-                            <h4 class="text-white text-lg font-semibold mt-1">The Skyline Residence</h4>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="carousel-item">
-                    <div class="project-card w-64 h-80 shadow-lg">
-                        <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=600&q=80" alt="Project" loading="lazy">
-                        <div class="project-card-content">
-                            <span class="text-white/70 text-xs font-medium uppercase tracking-wider">Malibu Coast</span>
-                            <h4 class="text-white text-lg font-semibold mt-1">Ocean View Estates</h4>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="carousel-item">
-                    <div class="project-card w-64 h-80 shadow-lg">
-                        <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600&q=80" alt="Project" loading="lazy">
-                        <div class="project-card-content">
-                            <span class="text-white/70 text-xs font-medium uppercase tracking-wider">Santa Monica</span>
-                            <h4 class="text-white text-lg font-semibold mt-1">Sunset Plaza</h4>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="carousel-item">
-                    <div class="project-card w-64 h-80 shadow-lg">
-                        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&q=80" alt="Project" loading="lazy">
-                        <div class="project-card-content">
-                            <span class="text-white/70 text-xs font-medium uppercase tracking-wider">Bel Air</span>
-                            <h4 class="text-white text-lg font-semibold mt-1">The Grand Manor</h4>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="carousel-item">
-                    <div class="project-card w-64 h-80 shadow-lg">
-                        <img src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914?w=600&q=80" alt="Project" loading="lazy">
-                        <div class="project-card-content">
-                            <span class="text-white/70 text-xs font-medium uppercase tracking-wider">Hollywood Hills</span>
-                            <h4 class="text-white text-lg font-semibold mt-1">Vista Heights</h4>
-                        </div>
-                    </div>
-                </div>
-
+            
+            <!-- Text Content -->
+            <div class="flex-grow min-w-0">
+                <h4 class="text-gray-900 font-semibold text-base">Why Dubai?</h4>
+                <p class="text-gray-500 text-sm mt-0.5">Investment insights & market overview</p>
             </div>
-        </div>
+            
+            <!-- Arrow -->
+            <div class="flex-shrink-0 w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center group-hover:bg-gray-200 transition-colors">
+                <i class="fas fa-arrow-right text-gray-600 text-sm"></i>
+            </div>
+        </a>
 
-        <!-- Footer -->
-        <div class="text-center mt-12 px-6">
-            <p class="text-gray-400 text-sm">
-                © 2026 Golden Bridge
-            </p>
-            <p class="text-gray-300 text-xs mt-1">
-                Dubai, UAE
-            </p>
-        </div>
-    </section>
+        <!-- Project PDF -->
+        <a 
+            href="./assets/caden.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn-press group flex items-center gap-4 p-5 bg-white rounded-3xl shadow-sm border border-gray-100 hover:shadow-md transition-all duration-300 no-underline"
+        >
+            <!-- Icon Container -->
+            <div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-blue-400 to-indigo-600 flex items-center justify-center flex-shrink-0 shadow-lg shadow-indigo-500/20">
+                <i class="fas fa-building text-white text-xl"></i>
+            </div>
+            
+            <!-- Text Content -->
+            <div class="flex-grow min-w-0">
+                <h4 class="text-gray-900 font-semibold text-base">Featured Project</h4>
+                <p class="text-gray-500 text-sm mt-0.5">Exclusive event showcase brochure</p>
+            </div>
+            
+            <!-- Arrow -->
+            <div class="flex-shrink-0 w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center group-hover:bg-gray-200 transition-colors">
+                <i class="fas fa-arrow-right text-gray-600 text-sm"></i>
+            </div>
+        </a>
+
+    </div>
+
+    <!-- Footer -->
+    <div class="text-center mt-16 px-6">
+        <p class="text-gray-400 text-sm">
+            © 2026 Metrika Real Estate
+        </p>
+        <p class="text-gray-300 text-xs mt-1">
+            Dubai, UAE
+        </p>
+    </div>
+</section>
 
     <!-- ═══════════════════════════════════════════════════════════════════
          JAVASCRIPT
